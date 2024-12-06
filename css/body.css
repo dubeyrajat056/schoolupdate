@@ -1032,14 +1032,14 @@ body {
 /* nursery event end */
 
 /* board result str */
-main {
+/* main {
     background: white;
     padding: 30px;
     margin-top: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-family: "Montserrat", sans-serif;
-}
+} */
 
 form h2 {
     margin-bottom: 20px;
