@@ -1,0 +1,190 @@
+/* Navbar Styling */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./../font/static/Montserrat-Light.ttf);
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+}
+
+.top-bar {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.top-bar .contact-info {
+    font-size: 14px;
+}
+
+.top-bar .social-icons a {
+    color: white;
+    margin: 0 8px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* .btn-book-now {
+    background-color: #114aac;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+} */
+
+.btn-book-now:hover {
+    background-color: #0cdcc1;
+}
+
+
+.footer {
+    background-color: #033242;
+    color: #d1e8ed;
+    padding: 40px 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.footer h5 {
+    color: #77d7e8;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.footer a {
+    color: #d1e8ed;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+.footer a:hover {
+    color: #77d7e8;
+    font-family: "Montserrat", sans-serif;
+}
+
+.footer .social-icons a {
+    font-size: 20px;
+    margin-right: 15px;
+    display: inline-block;
+
+}
+
+.footer .form-control {
+    border: none;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.footer .btn {
+    background-color: #00a6bb;
+    border: none;
+    border-radius: 0;
+}
+
+.footer .btn:hover {
+    background-color: #007a8d;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #a8d4e0;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* new  one str */
+
+/* Top Bar */
+.top-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.top-bar .contact-info span {
+    font-size: 14px;
+}
+
+.top-bar .social-icons a {
+    color: #fff;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.top-bar .social-icons a:hover {
+    color: #ffd700;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand img {
+    height: 50px;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    margin: 0 10px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.navbar .btn-book-now {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    /* padding: 8px 15px; */
+    border-radius: 25px;
+}
+
+.navbar .btn-book-now:hover {
+    background-color: #0056b3;
+}
+
+/* Dropdown Menu */
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+    animation: fadeIn 0.3s;
+}
+
+.dropdown-menu {
+    background-color: #f8f9fa;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-menu .dropdown-item {
+    font-size: 14px;
+    padding: 10px 20px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
